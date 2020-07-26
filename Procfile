@@ -1,1 +1,1 @@
-web: gunicorn knowyourcarprice.wsgi
+web: gunicorn price_predictor.wsgi
