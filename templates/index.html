@@ -8,11 +8,12 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
     <title>Document</title>
+    <div style="background-image: url('https://1920x1080hdwallpapers.com/image/201503/cars/1243/chevrolet-old-school-car-beach.jpg');"></div>
 </head>
 
 <body>
 
-    <div style="color:blue">
+    <div style="color:#f70404">
         <form action = "prediction" method="post">{% csrf_token %}
             <h1>Old  Car Price Predictor</h1><br>
             <h4>Year</h4><br><input id="first" name="Year" type="number ">
@@ -32,7 +33,7 @@
                 <option value="Mannual">Manual Car</option>
                 <option value="Automatic">Automatic Car</option>
             </select>
-            <br><br>
+            <br><br><br>
           <button type="submit" class="btn btn-success">Calculate Price</button>
             <br>
         </form>
@@ -45,7 +46,7 @@
 
     <style>
         body {
-            background-color: lightslategray;
+            background:url('https://1920x1080hdwallpapers.com/image/201503/cars/1243/chevrolet-old-school-car-beach.jpg');
             text-align: center;
             padding: 0px;
         }
@@ -125,32 +126,35 @@
 
         #first {
             border-radius: 14px;
-            height: 25px;
+            height: 50px;
             font-size: 20px;
             text-align: center;
         }
 
         #second {
             border-radius: 14px;
-            height: 25px;
+            height: 50px;
             font-size: 20px;
             text-align: center;
         }
 
         #third {
             border-radius: 14px;
-            height: 25px;
+            height: 50px;
             font-size: 20px;
             text-align: center;
         }
 
         #fourth {
             border-radius: 14px;
-            height: 25px;
+            height: 50px;
             font-size: 20px;
             text-align: center;
         }
     </style>
+
+    <br><br><p>This project is created by Anshuman Gupta </p><br>
+    <p>Copywrite @ carpriceprediction2020</p>
 </body>
 
 </html>
