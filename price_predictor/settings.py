@@ -29,7 +29,7 @@ SECRET_KEY = '@poi-z61l0_&%37^%paz#(u4azz9i42ze0#f4g5ry-7%s**lw$'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['carpricepredictor2020.herokuapp.com']
 
 
 # Application definition
